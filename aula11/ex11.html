@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+
+<body>
+    <h1>Descobrindo sua Nacionalidade</h1>
+    Nacionalidade: <input type="text" name="país" id="país">
+    <input type="button" value="Verificar" onclick="nasc()">
+    <script>
+
+        function nasc() {
+            //var país = 'Brasil'
+            var nascimento = "yan"
+
+            console.log(`Vivendo em ${país.value}`)
+            if (país.value == 'Brasil') {
+                console.log('Você é Brasileiro')
+                nascimento = 'Brasileiro'
+            } else {
+                console.log('Você é Estrangeiro')
+                nascimento = 'Estrangeiro'
+            }
+            res.innerHTML = `<p>Voce é <strong>${nascimento}</strong></p>`
+        }
+    </script>
+          <div id="res">
+
+</body>
+
+</html>
