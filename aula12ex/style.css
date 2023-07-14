@@ -20,11 +20,22 @@ section {
 }
 
 div {
-    border-radius: 50%;
+    text-align: center;
+    padding: 9px;
 }
 
 footer {
     color: white;
     text-align: center;
     font-style: italic;
+    padding: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 82, 82);
+}
+
+a:hover {
+    color: rgb(53, 51, 51);
 }
