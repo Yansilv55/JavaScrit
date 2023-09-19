@@ -1,3 +1,5 @@
-"use strict"
+let num = 10;
 
-var nome = "Yan";
+res =(!(num%2) ? "Par" : "Impar")
+
+console.log(res)
